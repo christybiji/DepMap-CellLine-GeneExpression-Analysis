@@ -14,7 +14,6 @@ This notebook demonstrates key computational biology steps for:
 3.  **Target Cell Line Identification:** Filtering and verifying the existence of specific cell lines of interest (e.g., AML cell lines) and designated control cell lines within the dataset.
 4.  **Differential Gene Expression Analysis:**
     * Calculating Log2 Fold Change (Log2FC) for genes in individual "test" cell lines compared to a pooled "control" baseline.
-    * **Note on P-values:** For demonstration purposes, p-values are simulated in this notebook. For rigorous scientific analysis, biological replicates are essential for calculating valid statistical p-values.
 5.  **Data Visualization:**
     * Bar plots to highlight the top upregulated and downregulated genes.
     * Volcano plots to simultaneously visualize Log2FC and (simulated) significance, with annotations for key genes.
